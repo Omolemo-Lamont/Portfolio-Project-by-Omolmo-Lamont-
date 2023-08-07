@@ -4,6 +4,10 @@
     --background-theme: #202020;
 }
 
+body {
+    background-color: var(--background-theme);
+}
+
 h1,
 h2,
 h3,
@@ -48,4 +52,21 @@ h1 {
     font-size: 14px;
     line-height: 27px;
     padding: 10px 30px;
+}
+
+.img-fluid {
+    box-shadow: 4px;
+    height: 75%;
+}
+
+@media (max-width:375px) {
+    .hero {
+        margin-bottom: auto;
+        padding: 75px 15px;
+    }
+
+    .img-fluid {
+        box-shadow: 4px;
+        height: auto;
+    }
 }
