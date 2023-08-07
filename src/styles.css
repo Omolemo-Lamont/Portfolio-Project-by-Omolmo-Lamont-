@@ -1,0 +1,15 @@
+/*font-family: 'Playfair Display SC',
+serif;
+font-family: 'Tangerine',
+cursive;*/
+
+h1 {
+    font-family: 'Tangerine', cursive;
+    font-weight: bold;
+
+}
+
+p {
+    font-family: 'Playfair Display SC', serif;
+
+}
