@@ -1,15 +1,51 @@
-/*font-family: 'Playfair Display SC',
-serif;
-font-family: 'Tangerine',
-cursive;*/
+:root {
+    --family-font: 'Tangerine', cursive;
+    --subtitel-font: 'Playfair Display SC', serif;
+    --background-theme: #202020;
+}
 
-h1 {
-    font-family: 'Tangerine', cursive;
+h1,
+h2,
+h3,
+h4 {
+    font-family: var(--family-font);
     font-weight: bold;
 
 }
 
-p {
-    font-family: 'Playfair Display SC', serif;
+h1 {
+    font-family: var(--family-font);
+    font-size: 92px;
+    margin: auto;
+    line-height: 90px;
+}
 
+.hero {
+    background-color: var(--background-theme);
+    text-align: center;
+    color: aliceblue;
+    padding: 150px 30px;
+}
+
+.hero p {
+    font-family: var(--subtitel-font);
+    font-size: 24px;
+    margin: auto;
+
+}
+
+.hero h2 {
+    font-family: var(--subtitel-font);
+    font-weight: normal;
+    font-size: 18px;
+
+}
+
+.btn-brand {
+    background-color: #272142;
+    color: #ffff;
+    border-radius: 50px;
+    font-size: 14px;
+    line-height: 27px;
+    padding: 10px 30px;
 }
