@@ -45,6 +45,39 @@ h1 {
 
 }
 
+.about-section-info {
+    margin: 30px;
+}
+
+
+
+.about-section h1 {
+    font-family: var(--family-font);
+    font-size: 94px;
+    color: aliceblue;
+    text-align: center;
+    line-height: 80px;
+}
+
+.about-section h2 {
+    font-family: var(--subtitel-font);
+    font-size: 18px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.about-section p {
+    font-family: var(--subtitel-font);
+    font-size: 16px;
+    color: #ffff;
+    text-align: center;
+}
+
+.about-section a {
+    display: flex;
+    justify-content: center;
+}
+
 .btn-brand {
     background-color: #272142;
     color: #ffff;
