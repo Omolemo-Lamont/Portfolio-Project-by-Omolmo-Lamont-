@@ -46,6 +46,10 @@ h1 {
 
 }
 
+.content-container {
+    color: aliceblue;
+}
+
 .content {
     margin: 30px;
 }
