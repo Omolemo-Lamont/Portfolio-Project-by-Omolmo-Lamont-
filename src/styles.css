@@ -45,13 +45,13 @@ h1 {
 
 }
 
-.about-section-info {
+.content {
     margin: 30px;
 }
 
 
 
-.about-section h1 {
+.content h1 {
     font-family: var(--family-font);
     font-size: 94px;
     color: aliceblue;
@@ -59,21 +59,21 @@ h1 {
     line-height: 80px;
 }
 
-.about-section h2 {
+.content h2 {
     font-family: var(--subtitel-font);
     font-size: 18px;
     color: aliceblue;
     text-align: center;
 }
 
-.about-section p {
+.content p {
     font-family: var(--subtitel-font);
     font-size: 16px;
     color: #ffff;
     text-align: center;
 }
 
-.about-section a {
+.content a {
     display: flex;
     justify-content: center;
 }
