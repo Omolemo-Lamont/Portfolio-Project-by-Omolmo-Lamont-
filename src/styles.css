@@ -108,7 +108,7 @@ footer {
 .email-link {
     text-decoration: none;
     color: white;
-    font-size: 66px;
+    font-size: 54px;
     font-family: var(--family-font);
 }
 
@@ -139,4 +139,5 @@ footer {
         height: auto;
         margin-top: 20px;
     }
+
 }
